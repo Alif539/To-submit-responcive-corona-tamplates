@@ -1,0 +1,41 @@
+ padding: 5px 5px 5px 5px;
+ margin: 0px 8px 0px 8px;
+color: #035755;{for Texts}
+ background-color: #FA5652;{The Red Theme}
+ box-shadow:0px 0px 10px #9d9d9d;
+
+.bannerArea{
+    position: relative;
+    z-index: 1;
+}
+.bannerArea::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    /* height: 100px; */
+    /* width: 100px; */
+    width: 100%;
+    top: 20px;
+    right: 20px;
+    /* left: 20px; */
+    /* bottom: 20px; */
+    background-image: url('images/bannerSectionBgIMg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.BAnnerBUtton a{
+    padding: 10px 25px;
+    background-color: #FB4C47;
+    box-shadow: 0px 0px 5px #9d9d9d;
+    border-radius: 41px;
+    font-size: 10px;
+    color: white;
+}
+.BAnnerBUtton a:hover{
+   color: #035755 ;
+   box-shadow: 0px 0px 10px #9d9d9d;
+   background-color: white;
+   transition: all .2s ease;
+}

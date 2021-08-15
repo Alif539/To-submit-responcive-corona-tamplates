@@ -1,0 +1,655 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Red+Hat+Display:wght@400;500;700;900&display=swap');
+body{ font-family: 'Red Hat Display', sans-serif;}
+.fl{float:left;}
+.fr{float: right;}
+.fix{overflow: hidden;}
+h1{ font-size: 28px;color: #035755;font-family: 'Red Hat Display', sans-serif;}
+h2{font-family: 'Red Hat Display', sans-serif; }
+h3{color: #035755;font-family: 'Red Hat Display', sans-serif; }
+h4{color: #FA5652;font-family: 'Red Hat Display', sans-serif;font-size: 19px;font-weight:800; }
+p{ font-size: 13px; color:black;font-family: 'Questrial', sans-serif; opacity: 0.6;}
+h2{font-size: 35px;color: #035755;font-family: 'Red Hat Display', sans-serif;}
+ul li{list-style: none;display: inline-block;}
+ul li a{text-decoration: none ; font-size: 16px;color: #035755;font-family: 'Questrial', sans-serif; }
+a{text-decoration: none;font-size: 16px;}
+/* img{width: 100%;} */
+.fullSize{width: 100%;}
+.WidthHundread{width: 100%;}
+.widthFifty{width:45%;margin-left: 2.5% ;margin-right: 2.5%;}
+.widthThirty{width: 30%;margin-left: 1.5% ;margin-right: 1.5%;}
+.widthTwentyfive{width:22%;margin-left: 1.5% ;margin-right: 1.5%;}
+/* global css ends here */
+
+/* sizing css starts here */
+/* .container{width:min(960px,96%);margin:0 auto; } */
+.container{width: 96%;margin:0 auto; background-color: #fffbfb;}
+.structure{width: 80%;margin:0 auto;}
+/* sizing css ends here *
+
+/* Header Section Starts Here  */
+
+.navArea {
+    padding: 20px 0px 20px 0px;
+}
+.logo {
+    width: 18%;
+}
+.logoIMg {
+    width:100% ;
+}
+.navMenu {
+    width: 68%;
+}
+.navMenu ul{ 
+    text-align: right;
+}
+.navMenu ul li{
+    padding: 11px 1px 5px 1px;
+}
+.navMenu ul li a{
+    margin: 0px 11px 0px 11px;
+    position: relative;
+}
+.navMenu ul li a::before{
+    content: '';
+    position: absolute;
+}
+.navMenu ul li a:hover ,.active{
+    color:#FA5652;
+}
+.active::before{
+    content: '';
+    position: absolute;
+    height: 6px;
+    width: 7px;
+    background-color: #FA5652;
+    top: 21px;
+    left: 50%;
+    border-radius: 50%;
+    transition: all .1s linear ;
+}
+.navMenu ul li a:hover:before {
+    height: 6px;
+    width: 7px;
+    background-color: #FA5652;
+    top: 21px;
+    left: 50%;
+    border-radius: 50%;
+    transition: all .1s linear ;
+}
+.containerBtn {
+    width: 13%;
+    padding: 9px 5px 11px 3px;
+}
+.containerBtn a{
+        border-radius: 60px;
+        border: 2px solid #FF383D;
+        padding: 6px 25px 7px 28px;
+        color: #FF383D;
+        box-shadow: 0px 0px 5px #9d9d9d;
+}
+.containerBtn a:hover{
+    box-shadow: inset 0px 0px 5px #9d9d9d;
+}
+
+/* Header Section Ends Here  */
+/* Banner Section Starts here */
+.bannerArea{
+    position: relative;
+    z-index: 1;
+    padding: 100px 0px;
+}
+.bannerArea::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    height: 126%;
+    width: 56%;
+    top: 20px;
+    right: 0px;
+    background-image: url(images/bannerSectionBgIMg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannerText {
+    padding: 65px 0px 20px 0px;
+}
+.bannerHfour {
+    margin-bottom: 10px;
+}
+.bannerHone {
+    width: 31%;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.bannerHone h1{
+    font-weight: 700;
+}
+.BannerPone {
+    width: 34%;
+    margin-bottom: 30px;
+}
+.BannerPone p{
+  font-weight: 600;
+  line-height: 22px;
+}
+.BAnnerBUtton a{
+    padding: 10px 25px;
+    background-color: #FB4C47;
+    box-shadow: 0px 0px 5px #9d9d9d;
+    border-radius: 41px;
+    font-size: 12px;
+    color: white;
+}
+.BAnnerBUtton a:hover{
+   color: #035755 ;
+   box-shadow: 0px 0px 10px #9d9d9d;
+   background-color: white;
+   transition: all .2s ease;
+}
+/* Banner Section Ends here */
+/* Intro to covid starts here */
+.whatISCOvid{
+    padding: 200px 0px;
+    position: relative;
+    z-index: 1;
+}
+.whatISCOvid::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 75%;
+    width: 43%;
+    top: 81px;
+    left: 40px;
+    background-image: url(images/introToCovidBgImg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.introAreaText{
+    padding: 65px 0px 30px 0px;
+    position: relative;
+    z-index: 1;
+}
+.introAreaText::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 78%;
+    width: 13%;
+    right: -144px;
+    bottom: -120px;
+    background-image: url(images/introToCovidCoronaBg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.textLocator{
+    width: 39%;
+    margin: 0px 0px 0px 630px;
+    position: relative;
+    z-index: 1;;
+}
+.textLocator::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 55%;
+    width: 27%;
+    right: -75px;
+    bottom: -303px;
+    background-image: url(images/introToCovidCoronaBg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannerText {
+    padding: 65px 0px 20px 0px;
+}
+.introHfour {
+    margin-bottom: 10px;
+}
+.introHone {
+    width: 46%;
+    margin-bottom: 5px;
+}
+.introPone {
+    width: 94%;
+    margin-bottom: 22px;
+}
+.introPone p{
+  font-weight: 600;
+  line-height: 20px;
+}
+.introBUtton a{
+    padding: 8px 14px;
+    background-color: #fddfde;
+    box-shadow: 0px 0px 5px #9d9d9d;
+    border-radius: 41px;
+    font-size: 12px;
+    color: #FA5652;
+}
+.introBUtton a:hover{
+   color: whitesmoke;
+   box-shadow: 0px 0px 7px #9d9d9d;
+   background-color:  #FA5652;
+   transition: all .2s ease;
+}
+/* Intro to covid ends here */
+/* Contaigon section starts here */
+.contaigonSection{
+    padding: 55px 0px 20px 0px;
+    position:relative;
+    z-index: 1;
+}
+.contaigonSection::before{
+    content: '';
+    z-index: -1;
+    position: absolute;
+    height: 29%;
+    width: 7%;
+    top: 370px;
+    left: 60px;
+    background-image: url(images/contaigonAreaBgCoronaImh.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contaigonAreaText {
+    text-align: center;
+}
+.contaigonHfour {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contaigonHone {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contaigonPone {
+    margin-bottom: 22px;
+    width: 50%;
+    margin:0 auto;
+}
+.contaigonPone p{
+  font-weight: 600;
+  line-height: 20px;
+}
+.ContagionCartsArea {
+    padding :50px 0px 50px 0px;
+    
+}
+.contagionCart {
+    border-radius: 3px;
+    padding: 30px 0px;
+    box-shadow:0px 0px 10px #9d9d9d;
+    position: relative;
+    z-index: 2;
+}
+.contagionCart:hover{
+    transform: translatey(-10px);
+    transition: all 250ms ease-in;
+    box-shadow:0px 5px 10px #9d9d9d;
+}
+.contagionCart::before{
+    content: '';
+    position: absolute;
+    z-index: -4;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 250ms ease-in;
+}
+.contagionCart:hover:before{
+    height: 1.5%;
+    width: 100%;
+    top: 99%;
+    right: 0px;
+    background-color: #FB4C47;
+    border-radius: 6px;
+    transform: scaleX(1);
+    transform-origin: left;
+}
+.cartImg {
+    width: 60%;
+    margin: 0 auto;
+}
+.cartText h4{
+    margin-top: 15px;
+    margin-bottom: 12px;
+    text-align: center;
+    color: #257776;
+    font-size: 12px;
+}
+.cartText p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+/* Contaigon section ends here */
+/* Symptoms Section Starts here */
+.symptopmSection{
+    position: relative;
+    z-index: 1;
+    padding: 50px 0px 50px 0px;
+}
+.symptopmSection::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 11%;
+    width: 11%;
+    left: 33px;
+    bottom: 140px;
+    background-image: url(images/symtpmsRightBg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.symptomMaindiv{
+    position: relative;
+    z-index: 1;
+}
+.symptomMaindiv::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 14%;
+    width: 10%;
+    right: 42px;
+    bottom: -74px;
+    background-image: url(images/symtpmsRightBg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.symptopmAreText {
+    text-align: center;
+}
+.symptopmAreHfour {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.symptopmAreHone {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.symptopmArePone {
+    margin-bottom: 22px;
+    width: 50%;
+    margin:0 auto;
+}
+.symptopmArePone p{
+  font-weight: 600;
+  line-height: 20px;
+}
+.symptopmIMg{
+    width: 80%;
+    margin: 0 auto;
+}
+/* Symptoms Section Ends here */
+/* What should we do section starts here */
+.WhatShouldWeDoText {
+    text-align: center;
+}
+.WhatShouldWeDoHfour {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.WhatShouldWeDoHone {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.WhatShouldWeDoPone {
+    margin-bottom: 22px;
+    width: 50%;
+    margin:0 auto;
+}
+.WhatShouldWeDoPone p{
+  font-weight: 600;
+  line-height: 20px;
+}
+.carttext{
+    position: relative;
+    padding: 20px 20px;
+    width: 25%;
+    margin-left: 20%;
+    margin-top: 8%;
+}
+.MarkingContainer h4{
+    position: absolute;
+    top: 17px;
+    left: -23px;
+    border-radius: 50%;
+    background-color: #ffc4c3;
+    color: #FA5652;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.WhatToDoCartHone {
+    margin-bottom: 10px;
+}
+.WhatToDoCartHone h1{
+    color: #035755;
+}
+.WhatShouldWeCartDoPone {
+    width: 100%;
+    line-height: 20px;
+}
+.whatSouldWeDoImg{
+   margin-top: 4%;
+   width: 40%;
+}
+.whatShouldWeDoMAinImg {
+    width: 65%;
+}
+.toAlignCartONE {
+    margin: 100px 170px 0px 0px;
+}
+.toAlignCartTWO{
+    margin: 0px 0px 0px 165px;
+}
+.whatWeDOCoronaBg1{
+    position: relative;
+    z-index: 1;
+}
+.whatWeDOCoronaBg1::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 51%;
+    width: 8%;
+    top: 210px;
+    left: 0px;
+    background-image: url(images/whatShouldWeDoCoronaBgImg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.whatWeDOCoronaBg2{
+   position: relative;
+    z-index: 1;
+}
+.whatWeDOCoronaBg2::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 26%;
+    width: 8%;
+    top: 304px;
+    right: 62px;
+    background-image: url(images/whatShouldWeDoCoronaBgImg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.whatWeDOCoronaBg3{
+    position: relative;
+    z-index: 1;
+}
+.whatWeDOCoronaBg3::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 57%;
+    width: 8%;
+    top: 95px;
+    right: 0px;
+    background-image: url(images/whatShouldWeDoCoronaBgImg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* What should we do section ENds here */
+/* live Report Section Starts Here */
+.liveReportSection{
+    padding: 30px 0px 30px 0px;
+}
+.statBar{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+.statBar::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    height: 65%;
+    width: 50%;
+    top: 70px;
+    left: 115px;
+    background-image: url(images/LiveReportsMapBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.StatIMg{
+    width: 85%;
+    margin: 0 auto;
+}
+/* live Report Section Ends Here */
+/* Question ANswer SEction Stats Here */
+.QuestionSection{
+    position: relative;
+    z-index: 1; 
+}
+.QuestionSection::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 45%;
+    width: 7%;
+    right: 120px;
+    top: -7px;
+    background-image: url(images/footerCoronaBgImg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.QuestionMAinDIv{
+    position: relative;
+    z-index: 1;
+}
+.QuestionMAinDIv::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 98%;
+    width: 10%;
+    right: -145px;
+    bottom: -91px;
+    background-image: url(images/footerCoronaBgImg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.questionSectionHEading{
+    width: 28%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 35px;
+}
+.questionSectionHEading h1{
+    color: #0C6C44;
+    font-weight: 700;
+}
+.formSection{
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+ }
+.FOrmInputs{
+    padding: 4px 4px;
+    border-radius: 28px;
+    width: 47%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px #9d9d9d;
+}
+.FOrmInputs input[type=text] {
+    border: none;
+    border-radius: 26px;
+    font-size: 12px;
+    padding: 17px 11px;
+    width: 73%;
+    background-color: white;
+}
+.FOrmInputs input[type=submit] {
+    background-color: #ff1f1b;
+    color: whitesmoke;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 1px;
+    width: 23%;
+    font-size: 13px;
+    font-weight: 700;
+}
+.FOrmInputs input[type=submit]:hover{
+    color:#ff110d; ;
+    background-color: #ffacaa;;
+    box-shadow: 0px 0px 10px #9d9d9d;
+    transition: all .3s ease;
+}
+/* Question ANswer SEction Ens Here */
+/* Footer Section Starts Here */
+.FooterSectinONe {
+}
+
+.FOtterHEader {
+    padding: 118px 130px 16px 130px;
+}
+
+.FOoterLgo{
+    width: 24%;
+    margin-left: 15px;
+}
+
+.footerLogoImg {
+    width: 59%;
+}
+
+.footerMenu {
+    width: 40%;
+}
+.footerMenu ul{
+    text-align: right;
+}
+.footerMenu ul li{
+    padding: 14px 1px 5px 1px;
+}
+.footerMenu ul li a{
+    margin: 0px 5px 0px 5px;
+    position: relative;
+    font-weight: 600;
+}
+.footerMenu ul li a:hover{
+    color: #FA5652;
+}
+.socialArea {
+    margin-top: 9px;
+    width: 25%;
+    margin-right: 10px;
+}
+.socialArea a{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.socialArea a:hover{
+    filter: invert(60%);
+}
+.cpyR8Section {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Footer Section Ends Here */
