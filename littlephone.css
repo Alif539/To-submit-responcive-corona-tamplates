@@ -1,0 +1,256 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Red+Hat+Display:wght@400;500;700;900&display=swap');
+body{ font-family: 'Red Hat Display', sans-serif;}
+.fl{float:left;}
+.fr{float: right;}
+.fix{overflow: hidden;}
+h1{ font-size: 1.4em;color: #035755;font-family: 'Red Hat Display', sans-serif;}
+h2{font-family: 'Red Hat Display', sans-serif; }
+h3{color: #035755;font-family: 'Red Hat Display', sans-serif; }
+h4{color: #FA5652;font-family: 'Red Hat Display', sans-serif;font-size: .8em;font-weight:800; }
+p{ font-size: .7em; color:black;font-family: 'Questrial', sans-serif; opacity: 0.6;line-height: 18px;}
+h2{font-size: 2.2em;color: #035755;font-family: 'Red Hat Display', sans-serif;}
+ul li{list-style: none;display:block;}
+ul li a{text-decoration: none ;font-size: .6em;color: #035755;font-family: 'Questrial', sans-serif; }
+a{text-decoration: none;font-size: .6em;}
+/* img{width: 100%;} */
+.fullSize{width: 100%;}
+.WidthHundread{width: 100%;}
+.widthFifty{width:45%;margin-left: 2.5% ;margin-right: 2.5%;}
+.widthThirty{width: 30%;margin-left: 1.5% ;margin-right: 1.5%;}
+.widthTwentyfive{width:22%;margin-left: 1.5% ;margin-right: 1.5%;}
+/* global css ends here */
+
+/* sizing css starts here */
+/* .container{width:min(960px,96%);margin:0 auto; } */
+.container{width: 96%;margin:0 auto; background-color: #fffbfb;}
+.structure{width: 95%;margin:0 auto;}
+/* sizing css ends here  */
+/* hwader sectuion starts here  */
+.navArea{
+     height: 10vh;
+     transition: all .3s ease-in-out;
+}
+.navAreaToggle{
+    height: 35vh;
+}
+.logo {
+    width: 100%;
+}
+.navMenu {
+    width: 100%;
+    display: none;
+}
+.navMenuOn{
+    display: block;
+}
+.containerBtn {
+    width: 100%;
+    padding: 9px 5px 11px 3px;
+    display: none;
+    transition: all .3s ease-in-out;
+}
+.containerBtnOn{
+    display: block;
+}
+.logoIMg {
+    width: 45%;
+}
+.navMenu ul {
+    text-align: center;
+}
+.active::before {
+    top: 17px;
+    left: 43%;
+}
+.containerBtn {
+    width: 65%;
+    padding: 9px 5px 11px 3px;
+}
+
+.burger {
+    display: block;
+}
+
+/* hwader sectuion ends here  */
+/* banner section starts here */
+.bannerText {
+    padding: 65px 0px 20px 0px;
+    text-align: center;
+}
+.bannerHone {
+    width: 100%;
+}
+.BannerPone {
+    width: 60%;
+    margin-inline: auto;
+}
+.BannerPone p {
+    line-height: 18px;
+}
+.BAnnerBUtton a {
+    padding: 8px 19px;
+    font-size: .6em;
+}
+.bannerArea::before {
+    height: 37%;
+    width: 63%;
+    top: 8px;
+    right: 0px;
+}
+/* banner section starts here */
+.bannerArea {
+    position: relative;
+    z-index: 1;
+    padding: 100px 0px 0px 0px;
+}
+/* intro section starts here */
+.whatISCOvid {
+    padding: 200px 0px 0px 0px;
+}
+.textLocator {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+.textLocator::before {
+    height: 34%;
+    width: 29%;
+    opacity: 0.6;
+    right: 213px;
+    bottom: 189px;
+}
+.introHone {
+    width: 46%;
+    margin-inline: auto;
+}
+.introPone {
+    width: 85%;
+    margin-inline: auto;
+}
+.whatISCOvid::before {
+    height: 41%;
+    width: 93%;
+    top: -6px;
+    left: -32px;
+}
+.introAreaText::before {
+    height: 63%;
+    width: 40%;
+    opacity: 0.5;
+    right: -6px;
+    bottom: -22px;
+}
+/* contagion starts here */
+.contaigonPone {
+    width: 50%;
+}
+.contagionCart{
+    width: 100%;
+}
+.contagionCart {
+    width: 81%;
+    margin-inline: auto;
+    margin-left: 11.5%;
+    margin-right: 11.5%;
+    margin-bottom: 16px;
+}
+.contaigonSection::before {
+    height: 9%;
+    width: 13%;
+    top: 422px;
+    left: 0px;
+}
+/* symptop sectin starts here */
+.symptomMaindiv::before {
+    height: 6%;
+    width: 9%;
+    right: 4px;
+    bottom: -23px;
+}
+.symptopmSection::before {
+    height: 6%;
+    width: 14%;
+    left: 3px;
+    bottom: 150px;
+}
+/* what should we do section */
+.carttext {
+    width: 53%;
+    margin-top: 13px;
+    margin-left: 3.5%;
+    margin-right: 0.5%;
+    padding: 10px 6px;
+}
+.whatSouldWeDoImg {
+    width: 35%;
+    margin-top: 82px;
+    margin-left: 3.5%;
+    margin-right: 0%;
+}
+.whatWeDOCoronaBg1::before {
+    height: 42%;
+    width: 7%;
+    top: 210px;
+}
+.whatWeDOCoronaBg3::before {
+    height: 29%;
+    width: 5%;
+    top: 244px;
+}
+.whatWeDOCoronaBg2::before {
+    height: 12%;
+    width: 4%;
+    top: 468px;
+    right: 19px;
+}
+.MarkingContainer h4 {
+    top: -12px;
+    left: 4px;
+    padding: 4px;
+    font-size: 11px;
+    font-weight: 700;
+}
+.whatWeDOCoronaBg1::before {
+    height: 42%;
+    width: 14%;
+    top: 210px;
+}
+.whatWeDOCoronaBg2::before {
+    width: 9%;
+}
+.whatWeDOCoronaBg3::before {
+    height: 29%;
+    width: 8%;
+}
+.questionSectionHEading {
+    width: 90%;
+}
+/* form section starts */
+.FOrmInputs {
+    width: 92%;
+}
+.FOrmInputs input[type=submit] {
+    width: 18%;
+}
+/* footer section starts here */
+.FOtterHEader {
+    padding: 50px 0px 0px 0px;
+}
+.FOoterLgo {
+    width: 100%;
+}
+.footerLogoImg {
+    margin-inline: auto;
+}
+.footerMenu {
+    width: 100%;
+}
+.footerMenu ul{
+    text-align: center;
+}
+.socialArea {
+    margin-top: 9px;
+    width: 69%;
+    margin-bottom: 20px;
+}

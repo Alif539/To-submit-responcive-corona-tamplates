@@ -4,15 +4,15 @@ body{ font-family: 'Red Hat Display', sans-serif;}
 .fl{float:left;}
 .fr{float: right;}
 .fix{overflow: hidden;}
-h1{ font-size: 28px;color: #035755;font-family: 'Red Hat Display', sans-serif;}
+h1{ font-size: 1.75em;color: #035755;font-family: 'Red Hat Display', sans-serif;}
 h2{font-family: 'Red Hat Display', sans-serif; }
 h3{color: #035755;font-family: 'Red Hat Display', sans-serif; }
 h4{color: #FA5652;font-family: 'Red Hat Display', sans-serif;font-size: 19px;font-weight:800; }
-p{ font-size: 13px; color:black;font-family: 'Questrial', sans-serif; opacity: 0.6;}
-h2{font-size: 35px;color: #035755;font-family: 'Red Hat Display', sans-serif;}
+p{ font-size: .8em; color:black;font-family: 'Questrial', sans-serif; opacity: 0.6;}
+h2{font-size: 2.2em;color: #035755;font-family: 'Red Hat Display', sans-serif;}
 ul li{list-style: none;display: inline-block;}
-ul li a{text-decoration: none ; font-size: 16px;color: #035755;font-family: 'Questrial', sans-serif; }
-a{text-decoration: none;font-size: 16px;}
+ul li a{text-decoration: none ; font-size: 1em;color: #035755;font-family: 'Questrial', sans-serif; }
+a{text-decoration: none;font-size: 1em;}
 /* img{width: 100%;} */
 .fullSize{width: 100%;}
 .WidthHundread{width: 100%;}
@@ -92,7 +92,28 @@ a{text-decoration: none;font-size: 16px;}
 .containerBtn a:hover{
     box-shadow: inset 0px 0px 5px #9d9d9d;
 }
+/* burger design starts here */
 
+.burger{
+    display: none;
+    position: absolute;
+    top: 29px;
+    right: 16px;
+    cursor: pointer;
+
+}
+.burgerline{
+    width: 25px;
+    background-color: #FB4C47;
+    height: 4px;
+    margin: 3px 3px;
+    border-radius: 26px;
+}
+
+
+
+
+/* burger design ends here */
 /* Header Section Ends Here  */
 /* Banner Section Starts here */
 .bannerArea{
@@ -650,6 +671,11 @@ a{text-decoration: none;font-size: 16px;}
 .cpyR8Section {
     text-align: center;
     margin-bottom: 50px;
+}
+.resizeSocial{
+    display: inline-block;
+    width: 6%;
+
 }
 
 /* Footer Section Ends Here */

@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media=" screen  and (max-width:900px)  and (min-width:769px) " href="tablet.css">
+    <link rel="stylesheet" media=" screen and (max-width:768px) and (min-width:321px) " href="bigphone.css">
+    <link rel="stylesheet" media=" screen and (max-width:320px)" href="littlephone.css">
+    
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container fix">
       <!-- header section starts here -->
       <!-- navigationSection starts Here -->
            <div class="navArea structure fix">
@@ -17,16 +21,23 @@
                       <a href="#"><img class="fullSize" src="images/covidLogo.png" alt="#"></a>
                   </div>
                </div>
-               <div class="navMenu fl">
-                   <ul>
-                       <li><a class="active" href="#Overview">Overview</a></li>
-                       <li><a href="#contagion">contagion</a></li>
-                       <li><a href="#Symptopms">Symptopms</a></li>
-                       <li><a href="#Prevention">Prevention</a></li>
-                   </ul>
-               </div>
-               <div class="containerBtn fr">
-                   <a href="#contactArea">Contact</a>
+              
+                <div class="navMenu fl">
+                    <ul>
+                        <li><a class="active" href="#Overview">Overview</a></li>
+                        <li><a href="#contagion">contagion</a></li>
+                        <li><a href="#Symptopms">Symptopms</a></li>
+                        <li><a href="#Prevention">Prevention</a></li>
+                    </ul>
+                </div>
+                <div class="containerBtn fr">
+                    <a href="#contactArea">Contact</a>
+                </div>
+             
+               <div class="burger">
+                   <div class="burgerline"></div>
+                   <div class="burgerline"></div>
+                   <div class="burgerline"></div>
                </div>
            </div>
             <!-- navigationSection starts Here -->
@@ -291,10 +302,10 @@
                             </ul>
                         </div>
                         <div class="socialArea fr">
-                            <a href="#"><img src="images/footerFbLogoIMg.png" alt=""></a>
-                            <a href="#"><img src="images/footerYoutubeLogoIMg.png" alt=""></a>
-                            <a href="#"><img src="images/footerVivoLogoIMg.png" alt=""></a>
-                            <a href="#"><img src="images/footertwetterLogoIMg.png" alt=""></a>
+                            <a href="#"><div class="resizeSocial"><img class="fullSize" src="images/footerFbLogoIMg.png" alt=""> </div></a>
+                            <a href="#"><div class="resizeSocial"><img class="fullSize" src="images/footerYoutubeLogoIMg.png" alt=""> </div></a>
+                            <a href="#"><div class="resizeSocial"><img class="fullSize" src="images/footerVivoLogoIMg.png" alt=""> </div></a>
+                            <a href="#"><div class="resizeSocial"><img class="fullSize" src="images/footertwetterLogoIMg.png" alt=""> </div></a>
                         </div>
                     </div>
                     <div class="cpyR8Section">
@@ -304,5 +315,6 @@
       <!-- Footer Section Ends Here -->
     </div>
     
+    <script src="function.js"></script>
 </body>
 </html>

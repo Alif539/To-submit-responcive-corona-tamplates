@@ -1,0 +1,198 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Red+Hat+Display:wght@400;500;700;900&display=swap');
+body{ font-family: 'Red Hat Display', sans-serif;}
+.fl{float:left;}
+.fr{float: right;}
+.fix{overflow: hidden;}
+h1{ font-size: 1.5em;color: #035755;font-family: 'Red Hat Display', sans-serif;}
+h2{font-family: 'Red Hat Display', sans-serif; }
+h3{color: #035755;font-family: 'Red Hat Display', sans-serif; }
+h4{color: #FA5652;font-family: 'Red Hat Display', sans-serif;font-size: 1em;font-weight:800; }
+p{ font-size: .8em; color:black;font-family: 'Questrial', sans-serif; opacity: 0.6;}
+h2{font-size: 2.3em;color: #035755;font-family: 'Red Hat Display', sans-serif;}
+ul li{list-style: none;display: inline-block;}
+ul li a{text-decoration: none ;font-size: .7em;color: #035755;font-family: 'Questrial', sans-serif; }
+a{text-decoration: none;font-size: .7em;}
+/* img{width: 100%;} */
+.fullSize{width: 100%;}
+.WidthHundread{width: 100%;}
+.widthFifty{width:45%;margin-left: 2.5% ;margin-right: 2.5%;}
+.widthThirty{width: 30%;margin-left: 1.5% ;margin-right: 1.5%;}
+.widthTwentyfive{width:22%;margin-left: 1.5% ;margin-right: 1.5%;}
+/* global css ends here */
+
+/* sizing css starts here */
+/* .container{width:min(960px,96%);margin:0 auto; } */
+.container{width: 96%;margin:0 auto; background-color: #fffbfb;}
+.structure{width: 80%;margin:0 auto;}
+/* sizing css ends here  */
+.BannerPone p {
+    line-height: 19px;
+}
+.BAnnerBUtton a {
+    font-size: 0.7em;
+    padding: 8px 15px;
+}
+.active::before {
+    height: 7px;
+    width: 7px;
+}
+.navMenu ul li a {
+    margin: 0px 5px 0px 4px;
+}
+.navMenu {
+    width: 63%;
+}
+.containerBtn {
+    width: 17%;
+    padding: 4px 5px 11px 3px;
+}
+.navMenu ul li {
+    padding: 6px 1px 5px 1px;
+}
+.bannerArea {
+    padding: 50px 0px;
+}
+.bannerHone {
+    width: 44%;
+}
+.BannerPone {
+    width: 38%;
+}
+.bannerArea::before {
+    height: 96%;
+     width: 57%;
+}
+/* intro to covid */
+.whatISCOvid {
+    padding: 20px 0px;
+}
+.textLocator {
+    width: 51%;
+    margin: 0px 0px 0px 392px;
+}
+.introPone {
+    width: 100%;
+}
+.whatISCOvid::before {
+    height: 130%;
+    width: 67%;
+    top: -80px;
+    left: -62px;
+}
+.introAreaText::before {
+        height: 48%;
+        width: 14%;
+        right: -86px;
+        bottom: -31px;
+}
+.textLocator::before {
+    height: 32%;
+    width: 22%;
+    right: 23px;
+    bottom: -120px;
+}
+.contaigonSection::before {
+    height: 19%;
+    width: 7%;
+    top: 365px;
+    left: 36px;
+}
+/* contagion section starts here */
+.contaigonPone {
+    width: 61%;
+}
+/* symptom settings */
+.WhatShouldWeDoPone {
+    width: 61%;
+}
+.symptopmArePone {
+    width: 62%;
+}
+.symptomMaindiv::before {
+    height: 14%;
+    width: 12%;
+    right: 10px;
+    bottom: 7px;
+}
+.symptopmSection::before {
+    height: 12%;
+    width: 14%;
+    left: 25px;
+}
+/* what should we do */
+.carttext{
+    width: 33%;
+    margin-top: 90px;
+    margin-left: 10.5%;
+    margin-right: 8.5%;
+}
+.whatSouldWeDoImg {
+    width: 37%;
+    margin-top: 79px;
+    margin-left: 8.5%;
+    margin-right: 2%;
+}
+.whatWeDOCoronaBg1::before {
+    height: 42%;
+    width: 7%;
+    top: 210px;
+}
+.whatWeDOCoronaBg3::before {
+    height: 47%;
+    width: 8%;
+    top: 264px;
+}
+.whatWeDOCoronaBg2::before {
+    height: 18%;
+    width: 6%;
+    top: 497px;
+    right: 44px;
+}
+/* live stat section */
+.liveReportSection {
+    padding: 60px 0px 30px 0px;
+}
+/* Question Answer section */
+.questionSectionHEading {
+    width: 44%;
+}
+.FOrmInputs input[type=text] {
+    font-size: .7em;
+    padding: 5px 4px;
+    width: 70%;
+}
+.FOrmInputs input[type=submit] {
+    padding: 7px 5px;
+    width: 27%;
+    font-size: .8em;
+}
+.QuestionMAinDIv::before {
+    height: 72%;
+    width: 11%;
+    right: -87px;
+    bottom: -187px;
+}
+.QuestionSection::before {
+    height: 29%;
+    width: 7%;
+    right: 78px;
+    top: 196px;
+}
+/* footer section */
+.FOtterHEader {
+    padding: 120px 45px 15px 45px;
+}
+.footerMenu ul li {
+    padding: 6px 1px 3px 1px;
+}
+.socialArea {
+    margin-top: 0px;
+    width: 26%;
+    margin-right: 0px;
+}
+.resizeSocial{
+    display: inline-block;
+    width: 6%;
+
+}
